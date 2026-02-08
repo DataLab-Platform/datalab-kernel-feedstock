@@ -1,5 +1,5 @@
 {% set name = "datalab-kernel" %}
-{% set version = "0.2.8" %}
+{% set version = "0.2.9" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/datalab_kernel/datalab_kernel-{{ version }}.tar.gz
-  sha256: 44d827a87afa4b486db01550d251d0f6dceaaf23abca9cdd2ac998637bfaa195
+  sha256: 7184d452c7309307e6a159fc23500ac5cbfc59e316d251280024012633dc4c19
 
 build:
   entry_points:
